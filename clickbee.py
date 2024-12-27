@@ -11,8 +11,8 @@ import requests
 from urllib.parse import urlparse, parse_qs
 
 
-API_ID = '21111033'
-API_HASH = 'fda348618bf2d98a6abe132d33c9ed6e'
+API_ID = ''
+API_HASH = ''
 BOT_USERNAME = '@ClickBeeBot'
 END_STR = "Oh no! There are NO TASKS available at the moment."
 loop = asyncio.get_event_loop()
