@@ -1,8 +1,8 @@
 import asyncio
 from telethon import TelegramClient
 
-API_ID = '21111033'
-API_HASH = 'fda348618bf2d98a6abe132d33c9ed6e'
+API_ID = ''
+API_HASH = ''
 BOT_USERNAME = '@hkearn_trx_bot'  # Replace with your bot's username
 BUTTON_TEXT = '🔗 Open Link'  # Replace with the text of the button you want to handle
 
@@ -42,3 +42,4 @@ async def main():
 if __name__ == "__main__":
     with client:
         client.loop.run_until_complete(main())
+
